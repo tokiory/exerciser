@@ -20,6 +20,9 @@ src_files = files(
   SRC_DIR + 'longest_line.c',
   SRC_DIR + 'reverse_line.c',
   SRC_DIR + 'print_long_line.c',
+  SRC_DIR + 'remove_line_blank.c',
+  SRC_DIR + 'detab.c',
+  SRC_DIR + 'entab.c',
 )
 
 executable('main', src_files, include_directories: headers)
