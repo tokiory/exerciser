@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "string.h": "c",
+    "_string.h": "c",
+    "remove_line_blank.h": "c"
+  }
+}

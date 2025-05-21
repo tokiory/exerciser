@@ -19,8 +19,9 @@
 #include "word_space_print.h"
 #include "detab.h"
 #include "entab.h"
+#include "htoi.h"
 
 int main() {
-  entab();
+  printf("%d\n", htoi("0x21"));
   return 0;
 }

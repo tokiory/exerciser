@@ -23,6 +23,7 @@ src_files = files(
   SRC_DIR + 'remove_line_blank.c',
   SRC_DIR + 'detab.c',
   SRC_DIR + 'entab.c',
+  SRC_DIR + 'htoi.c',
 )
 
 executable('main', src_files, include_directories: headers)
