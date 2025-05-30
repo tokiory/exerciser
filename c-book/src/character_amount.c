@@ -24,7 +24,8 @@ void character_amount() {
   while ((character = getchar()) != EOF) {
     putchar(character);
 
-    if ((character >= 'A' && character <= 'Z') || (character >= 'a' && character <= 'z')) {
+    if ((character >= 'A' && character <= 'Z') ||
+        (character >= 'a' && character <= 'z')) {
       amounts[get_char_idx(character)]++;
     }
   }

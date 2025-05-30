@@ -24,6 +24,9 @@ src_files = files(
   SRC_DIR + 'detab.c',
   SRC_DIR + 'entab.c',
   SRC_DIR + 'htoi.c',
+  SRC_DIR + 'squeeze.c',
+  SRC_DIR + 'str_any.c',
+  SRC_DIR + 'bin_search.c',
 )
 
 executable('main', src_files, include_directories: headers)

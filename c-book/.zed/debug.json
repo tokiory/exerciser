@@ -1,0 +1,18 @@
+[
+  {
+    "label": "Debug C file",
+    "adapter": "c",
+    "program": "$ZED_FILE",
+    "request": "launch",
+    "cwd": "$ZED_WORKTREE_ROOT"
+  },
+  {
+    "adapter": "CodeLLDB",
+    "label": "main (CodeLLDB)",
+    "program": "$ZED_WORKTREE_ROOT/./build/main",
+    "cwd": "/Users/tokiory/Development/pets/exerciser/c-book",
+    "args": [],
+    "env": {},
+    "stop_on_entry": false
+  }
+]

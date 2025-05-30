@@ -1,0 +1,11 @@
+[
+  {
+    "adapter": "CodeLLDB",
+    "label": "main (CodeLLDB)",
+    "request": "launch",
+    "name": "main (CodeLLDB)",
+    "program": "./bin/main",
+    "stopOnEntry": false,
+    "cwd": "/Users/tokiory/Development/pets/exerciser/codewars/ip-validation"
+  }
+]
